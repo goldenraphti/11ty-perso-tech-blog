@@ -1,0 +1,27 @@
+{
+  "name": "11ty-raphael-tech-blog",
+  "version": "1.0.0",
+  "description": "raphael ferrand perso tech blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldenraphti/11ty-perso-tech-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goldenraphti/11ty-perso-tech-blog/issues"
+  },
+  "homepage": "https://github.com/goldenraphti/11ty-perso-tech-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}

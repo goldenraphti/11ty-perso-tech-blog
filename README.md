@@ -1,5 +1,7 @@
 # 11ty personal blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/930a7acf-5cfd-41a7-a38d-d5b80da959c2/deploy-status)](https://app.netlify.com/sites/raphaelferrand/deploys)
+
 This is intended to be for a personal blog, simple, performant, focusing on content, a static site as it gets.
 It's also a way to play around, experimenting with new cool stuff away from production codebase ;-)
 
@@ -17,6 +19,8 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 ## Roadmap 🚀
 
 - [x] initiate 11ty blog with components
+- [ ] enable Netlify deploy (package.json & ... )
+- [ ] rename Git "master" branch to "main"
 - [ ] add Lighthouse CI
 - [ ] add Tailwind CSS
 - [ ] add PostCSS & Purge CSS
