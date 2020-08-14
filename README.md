@@ -19,8 +19,8 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 ## Roadmap 🚀
 
 - [x] initiate 11ty blog with components
-- [ ] enable Netlify deploy (package.json & ... )
-- [ ] rename Git "master" branch to "main"
+- [x] enable Netlify deploy (package.json & ... )
+- [x] use CSS
 - [ ] add Lighthouse CI
 - [ ] add Tailwind CSS
 - [ ] add PostCSS & Purge CSS
@@ -32,6 +32,7 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 - [ ] edit footer
 - [ ] add Web Mentions
 - [ ] first blog posts
+- [ ] rename Git "master" branch to "main" (later this year once made easier by GitHub team)
 
 ## Credits  	😍
 
