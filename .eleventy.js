@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
-    // Cpoy 'assets/css' to '_site/assets/css'
-    eleventyConfig.addPassthroughCopy({'assets/css' : 'css'})
+    // Copy '/css' to '_site/css'
+    eleventyConfig.addPassthroughCopy('css')
     return {
       passthroughFileCopy: true
     }
