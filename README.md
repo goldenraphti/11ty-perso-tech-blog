@@ -22,8 +22,10 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 - [x] enable Netlify deploy (package.json & ... )
 - [x] use CSS
 - [ ] add Lighthouse CI
-- [ ] add Tailwind CSS
-- [ ] add PostCSS & Purge CSS
+- [x] add Tailwind CSS
+- [x] add PostCSS
+- [ ] Purge CSS
+- [ ] fix issue reload on change
 - [ ] customize CSS via PostCSS (e.g. nested-CSS)
 - [ ] add CI check for A11y
 - [ ] style base

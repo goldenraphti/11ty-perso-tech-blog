@@ -1,5 +1,8 @@
 module.exports = {
-  purge: [],
+  purge: [
+    // './**/*.html',
+    './_includes/**/*.liquid',
+  ],
   theme: {
     extend: {},
   },
