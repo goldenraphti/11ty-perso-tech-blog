@@ -1,11 +1,10 @@
 module.exports = {
-  purge: [
-    // './**/*.html',
-    './_includes/**/*.liquid',
-  ],
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
-}
+	purge: {
+		content: ['./**/*.js', './**/*.11ty.js', './**/*.html', './**/*.njk'],
+	},
+	theme: {
+		extend: {},
+	},
+	variants: {},
+	plugins: []
+};

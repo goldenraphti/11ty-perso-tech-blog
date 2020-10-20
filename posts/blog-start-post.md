@@ -1,7 +1,7 @@
 ---
 layout: layout.liquid
 title: choosing the stack is te best part of the blog
-tags: ["post", 'stack']
+tags: ["post", "stack"]
 ---
 
 # {{title}}

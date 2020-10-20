@@ -1,6 +1,6 @@
 ---
 title: fix error gulp 3 node 12
-tags: ['post', 'gulp', 'tip', 'fix']
+tags: ["post", "gulp", "tip", "fix"]
 ---
 
 # {{title}}

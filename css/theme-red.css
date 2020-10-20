@@ -1,9 +1,9 @@
 body.theme-red {
-    background-color: #333;
-    color: #d30000;
+  background-color: #333;
+  color: #d30000;
 
-    /* & h1 {
-        font-size: 3em;
-        color: green;
-    } */
+  & h1 {
+    color: yellow;
+    font-size: 3em;
+  }
 }

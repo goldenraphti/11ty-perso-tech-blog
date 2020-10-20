@@ -36,7 +36,7 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 - [ ] first blog posts
 - [ ] rename Git "master" branch to "main" (later this year once made easier by GitHub team)
 
-## Credits  	😍
+## Credits 😍
 
 Thank you to the creators and mainteners of those amazing tools:
 
