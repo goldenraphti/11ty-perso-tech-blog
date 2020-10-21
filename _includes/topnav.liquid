@@ -2,8 +2,14 @@
     <ul class="flex">
         <li class="px-8"><a href="" class="">Blog</a></li>
         <li class="px-8"><a href="" class="">Side Projects</a></li>
-        <li class="px-8"><a href="" class="">Dark/Light mode</a></li>
-        <li class="px-8"><a href="" class="">En/ES/FR</a></li>
-        <li class="px-8"><a href="" class="">Email me</a></li>
+        {% if editorSettings.darkMode.enabled %}
+            <li class="px-8"><a href="" class="">Dark/Light mode</a></li>
+        {% endif %}
+        {% if editorSettings.translations.enabled %}
+            <li class="px-8"><a href="" class="">En/ES/FR</a></li>
+        {% endif %}
+        {% if editorSettings.email.enabled %}
+            <li class="px-8"><a href="" class=""><a href="mailto:rfemailtesting@gmail.com">Email me</a></a></li>
+        {% endif %}
     </ul>
 </nav>

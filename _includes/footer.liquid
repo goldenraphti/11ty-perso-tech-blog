@@ -1,8 +1,16 @@
 <footer class="flex justify-center">
     <ul class="flex max-w-2-xl">
         <li class="mx-4"><p>Raphaël Ferrand</p></li>
-        <li class="mx-4"><a href="https://github.com/goldenraphti">GH</a></li>
-        <li class="mx-4">Twitter</li>
-        <li class="mx-4">RSS</li>
+        {% if editorSettings.github.enabled %}
+            <li class="mx-4"><a href="https://github.com/goldenraphti">GH</a></li>
+        {% endif %}
+        
+        {% if editorSettings.twitter.enabled %}
+            <li class="mx-4">Twitter</li>
+        {% endif %}
+        
+        {% if editorSettings.rss.enabled %}
+            <li class="mx-4">RSS</li>
+        {% endif %}
     </ul>
 </footer>
