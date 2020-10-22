@@ -1,7 +1,9 @@
 <nav>
     <ul class="flex">
         <li class="px-8"><a href="" class="">Blog</a></li>
-        <li class="px-8"><a href="" class="">Side Projects</a></li>
+        {% if editorSettings.sideProjects.enabled %}
+            <li class="px-8"><a href="" class="">Side Projects</a></li>
+        {% endif %}
         {% if editorSettings.darkMode.enabled %}
             <li class="px-8"><a href="" class="">Dark/Light mode</a></li>
         {% endif %}

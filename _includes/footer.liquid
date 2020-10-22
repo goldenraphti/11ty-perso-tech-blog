@@ -1,6 +1,8 @@
 <footer class="flex justify-center">
     <ul class="flex max-w-2-xl">
-        <li class="mx-4"><p>Raphaël Ferrand</p></li>
+        {% if editorSettings.emailLink.enabled %}
+            <li class="mx-4"><p>Raphaël Ferrand</p></li>
+        {% endif %}
         {% if editorSettings.github.enabled %}
             <li class="mx-4"><a href="https://github.com/goldenraphti">GH</a></li>
         {% endif %}
