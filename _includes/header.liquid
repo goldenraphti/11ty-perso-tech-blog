@@ -1,7 +1,13 @@
 <header class="flex justify-between">
 
     <div class="logo">
-        <a href="/" class="text-6xl font-bold uppercase leading-none">Raphaël Ferrand</a>
+        {% if page.url == "/" %}
+        <h1 >
+            <a href="/" class="text-6xl font-bold uppercase leading-none">Raphaël Ferrand</a>
+        </h1>
+        {% else %}
+            <a href="/" class="text-6xl font-bold uppercase leading-none">Raphaël Ferrand</a>
+        {% endif %}
     </div>
     
     {% include topnav %}

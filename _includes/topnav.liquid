@@ -1,14 +1,14 @@
 <nav>
     <ul class="flex">
-        <li class="px-8"><a href="" class="">Blog</a></li>
+        <li class="px-8"><a href="/" class="">Blog</a></li>
         {% if editorSettings.sideProjects.enabled %}
-            <li class="px-8"><a href="" class="">Side Projects</a></li>
+            <li class="px-8"><a href="/side-projects/" class="">Side Projects</a></li>
         {% endif %}
         {% if editorSettings.darkMode.enabled %}
-            <li class="px-8"><a href="" class="">Dark/Light mode</a></li>
+            <li class="px-8"><button type="button" class="">Dark/Light mode</button></li>
         {% endif %}
         {% if editorSettings.translations.enabled %}
-            <li class="px-8"><a href="" class="">En/ES/FR</a></li>
+            <li class="px-8"><button type="button" class="">En/ES/FR</button></li>
         {% endif %}
         {% if editorSettings.email.enabled %}
             <li class="px-8"><a href="" class=""><a href="mailto:rfemailtesting@gmail.com">Email me</a></a></li>

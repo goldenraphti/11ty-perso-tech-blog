@@ -7,17 +7,16 @@ body.theme-minimalist {
 
   border: 8px solid var(--primary-color);
 
-  & h1 {
-    color: yellow;
-    font-size: 3em;
-  }
-
   & .logo a {
-    font-size: 72px;
+    font-size: 40px;
     line-height: 0.8;
     background: var(--logo-bg-gradient-forefront);
     background: var(--logo-bg-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media screen and (min-width: 768px) {
+      font-size: 72px;
+    }
   }
 }
