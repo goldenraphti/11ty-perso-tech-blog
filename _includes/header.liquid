@@ -1,6 +1,7 @@
 <header class="flex justify-between">
 
-    <div class="logo">
+    {% if editorSettings.headerTitle.uppercaseGradient %}
+    <div class="logo uppercase-gradient">
         {% if page.url == "/" %}
         <h1 >
             <a href="/" class="text-6xl font-bold uppercase leading-none">Raphaël Ferrand</a>
@@ -9,6 +10,13 @@
             <a href="/" class="text-6xl font-bold uppercase leading-none">Raphaël Ferrand</a>
         {% endif %}
     </div>
+    {% endif %}
+
+    {% if editorSettings.headerTitle.smudgedVioletGaramond %}
+    <div class="logo">
+        <a href="/" class="text-6xl font-bold uppercase leading-none"><img src="/img/title-raphael-ferrand.png" alt="Raphaël Ferrand" class="w-32 md:w-64"></a>
+    </div>
+    {% endif %}
     
     {% include topnav %}
 </header>

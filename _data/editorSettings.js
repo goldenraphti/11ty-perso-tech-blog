@@ -23,4 +23,8 @@ module.exports = {
   rss: {
     enabled: false,
   },
+  headerTitle: {
+    uppercaseGradient: false,
+    smudgedVioletGaramond: true,
+  },
 };
