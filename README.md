@@ -23,11 +23,10 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 * [x] use CSS
 * [x] add Tailwind CSS
 * [x] add PostCSS
-* [ ] rename Git "master" branch to "main"
-* [ ] Deploy to netlify
-* [ ] update Netlify-build_successful badge in README once deployed
+* [x] rename Git "master" branch to "main"
+* [x] Deploy to netlify
 * [ ] add Lighthouse CI
-* [ ] Purge CSS on build PROD (not dev)
+* [x] Purge CSS on build PROD (not dev)
 * [ ] improve mobile view
 * [ ] fix issue reload on change
 * [ ] fix horizontal dividers on blog startpage (on hover still see the upper divider)
