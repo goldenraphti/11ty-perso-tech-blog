@@ -25,9 +25,10 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 * [x] add PostCSS
 * [x] rename Git "master" branch to "main"
 * [x] Deploy to netlify
+* [x] improve default style aesthetics (logo + colors)
 * [ ] add Lighthouse CI
 * [x] Purge CSS on build PROD (not dev)
-* [ ] improve mobile view
+* [x] improve mobile view
 * [ ] fix issue reload on change
 * [ ] fix horizontal dividers on blog startpage (on hover still see the upper divider)
 * [ ] improve logo (not transparent yet, will cause issue later e.g. in dark mode)

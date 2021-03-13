@@ -5,6 +5,8 @@
   --bg-color: #fff;
   --text-color: #000;
   --primary-color: green;
+  --secondary-color: rgb(249, 129, 139);
+  --secondary-color-alpha-ready: 249, 129, 139;
   --logo-bg-gradient-forefront: var(--text-color);
   --logo-bg-gradient: var(--text-color);
   --gray-light-1: #e8e8e8;
@@ -22,7 +24,7 @@ body {
   & h5,
   & h6,
   & a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
   }
 
   & .posts-list {
@@ -39,7 +41,7 @@ body {
     }
 
     & li a:hover {
-      background-color: var(--gray-light-1);
+      background-color: rgba(var(--secondary-color-alpha-ready), 0.1);
 
       & + .divider {
         background-color: transparent;

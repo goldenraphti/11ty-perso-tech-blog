@@ -1,11 +1,16 @@
 body.theme-minimalist {
   /* --bg-color: #f7f8f6; */
   --text-color: #1c1c1c;
-  --primary-color: rgba(228, 10, 10, 1);
+  --primary-color: #57d2b5;
+  --secondary-color: rgb(249, 129, 139);
   --logo-bg-gradient-forefront: rgb(228, 10, 10);
   --logo-bg-gradient: linear-gradient(160deg, var(--primary-color) 0%, rgba(255, 213, 0, 1) 100%);
 
   border: 8px solid var(--primary-color);
+
+  & a {
+    color: var(--secondary-color);
+  }
 
   & .logo.uppercase-gradient a {
     font-size: 40px;
@@ -19,4 +24,9 @@ body.theme-minimalist {
       font-size: 72px;
     }
   }
+
+  & .title-text {
+    max-width: 6em;
+  }
+
 }
