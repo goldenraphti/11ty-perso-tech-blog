@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   // Copy `icons/` to `_site/icons`
   eleventyConfig.addPassthroughCopy("icons");
+  eleventyConfig.addPassthroughCopy("assets");
   return {
     passthroughFileCopy: true,
   };

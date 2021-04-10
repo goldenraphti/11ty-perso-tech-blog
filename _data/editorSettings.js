@@ -25,6 +25,6 @@ module.exports = {
   },
   headerTitle: {
     uppercaseGradient: false,
-    smudgedVioletGaramond: true,
+    tealPink: true,
   },
 };

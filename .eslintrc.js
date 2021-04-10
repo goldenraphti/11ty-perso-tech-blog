@@ -9,7 +9,9 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'prettier/prettier': 'error',
+    trailingComma: "es5",
+    tabWidth: 4,
+    semi: true,
+    singleQuote: true
   },
-  plugins: ['prettier'],
 };

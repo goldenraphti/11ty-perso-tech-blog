@@ -11,6 +11,32 @@
   --logo-bg-gradient: var(--text-color);
   --gray-light-1: #e8e8e8;
   --gray-medium-1: #717171;
+  --primary-font-family: 'sans-serif';
+  --secondary-font-family: 'sans-serif';
+}
+
+.divider {
+  height: 1px;
+  width: 90%;
+  margin: 0 5%;
+  background-color: var(--gray-light-1);
+}
+
+footer a,
+footer p {
+  color: var(--gray-medium-1);
+}
+
+header nav {
+  /* overflow: hidden; */
+  & a {
+    font-weight: 600;
+    font-family: var(--primary-font-family);
+  }
+}
+
+footer a:hover {
+  color: var(--primary-color);
 }
 
 body {
@@ -40,41 +66,25 @@ body {
       font-weight: 600;
     }
 
-    & li a:hover {
-      background-color: rgba(var(--secondary-color-alpha-ready), 0.1);
+    & li:first-of-type .divider {
+      background-color: transparent;
+    }
 
-      & + .divider {
+    & li:hover {
+      & a {
+        background-color: rgba(var(--secondary-color-alpha-ready), 0.1);
+      }
+
+      & .divider,
+      & + li .divider {
         background-color: transparent;
       }
     }
   }
 }
 
-.divider {
-  height: 1px;
-  width: 90%;
-  margin: 0 5%;
-  background-color: var(--gray-light-1);
-}
-
 .logo {
   max-width: 500px;
-}
-
-header nav {
-  /* overflow: hidden; */
-  & a {
-    font-weight: 600;
-  }
-}
-
-footer a,
-footer p {
-  color: var(--gray-medium-1);
-}
-
-footer a:hover {
-  color: var(--primary-color);
 }
 
 footer svg {
