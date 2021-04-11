@@ -81,6 +81,62 @@ body {
       }
     }
   }
+
+  & .logo {
+    margin: 5px;
+    padding: 12px;
+    position: relative;
+    width: 54px;
+    height: 54px;
+
+    & .blob {
+      background-color: var(--secondary-color);
+      opacity: 0.12;
+      position: absolute;
+      width: 54px;
+      height: 54px;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    & svg {
+      stroke: var(--primary-color);
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      z-index: 2;
+    }
+  }
+
+  & .title-text {
+    max-width: 6em;
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+  }
+
+  &.homepage .title-text {
+    color: var(--secondary-color);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body header .logo {
+    margin: 0 10px 0 0;
+    padding: 20px;
+    width: 90px;
+    height: 90px;
+
+    & .blob {
+      width: 90px;
+      height: 90px;
+    }
+
+    & svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
 
 .title {
@@ -93,4 +149,38 @@ footer svg {
 
 footer svg:hover {
   opacity: 1;
+}
+
+.blob {
+  animation-name: blobby;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+
+@keyframes blobby {
+  0% {
+    border-radius: 50%;
+  }
+
+  20% {
+    border-radius: 31% 69% 70% 30% / 30% 47% 53% 70%;
+    transform: rotate(36deg);
+  }
+
+  40% {
+    transform: rotate(72deg);
+    border-radius: 43% 57% 41% 59% / 53% 52% 48% 47%;
+  }
+
+  80% {
+    border-radius: 48% 52% 41% 59% / 48% 58% 42% 52%;
+    transform: rotate(108deg);
+  }
+
+  100% {
+    transform: rotate(144deg);
+    border-radius: 54% 46% 60% 40% / 43% 55% 45% 57%;
+  }
 }
