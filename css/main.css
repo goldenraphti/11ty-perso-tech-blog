@@ -5,6 +5,7 @@
   --bg-color: #fff;
   --text-color: #000;
   --primary-color: green;
+  --primary-color-transparent-20: rgba(249, 129, 139, 80);
   --secondary-color: rgb(249, 129, 139);
   --secondary-color-alpha-ready: 249, 129, 139;
   --logo-bg-gradient-forefront: var(--text-color);
@@ -13,6 +14,7 @@
   --gray-medium-1: #717171;
   --primary-font-family: 'sans-serif';
   --secondary-font-family: 'sans-serif';
+  --padding-code-block: 1.3215rem;
 }
 
 .divider {
@@ -126,6 +128,49 @@ body {
   &.homepage .title-text {
     color: var(--secondary-color);
   }
+}
+
+p,
+pre {
+  margin-bottom: 1.75rem;
+}
+
+ol {
+  list-style: auto;
+}
+
+/* For all <code> */
+code {
+  /* font-family: MyFancyCustomFont, monospace; */
+  font-size: inherit;
+}
+
+/* Code in text */
+p > code,
+li > code,
+dd > code,
+td > code {
+  font-size: 1em;
+  background: var(--primary-color-transparent-20);
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: 0.1rem 0.3rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+pre code {
+  font-size: 0.85em;
+  display: block;
+  background: #222222;
+  color: #ffffff;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+  padding: var(--padding-code-block);
+  margin: 0 calc(var(--padding-code-block) * -1);
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 720px) {
