@@ -137,6 +137,7 @@ pre {
 
 ol {
   list-style: auto;
+  list-style-position: inside;
 }
 
 /* For all <code> */
@@ -168,9 +169,8 @@ pre code {
   overflow-x: scroll;
   max-width: 100%;
   min-width: 100px;
-  padding: var(--padding-code-block);
-  margin: 0 calc(var(--padding-code-block) * -1);
   border-radius: 10px;
+  padding: var(--padding-code-block);
 }
 
 @media screen and (min-width: 720px) {
@@ -189,6 +189,10 @@ pre code {
       width: 50px;
       height: 50px;
     }
+  }
+
+  pre code {
+    margin: 0 calc(var(--padding-code-block) * -1);
   }
 }
 

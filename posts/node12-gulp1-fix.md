@@ -1,7 +1,6 @@
 ---
 title: gulp 3 & node 12 compatibility issues
 tags: ['post', 'gulp', 'node', 'tip', 'fix']
-date: 13/09/2021
 ---
 
 # {{title}}
