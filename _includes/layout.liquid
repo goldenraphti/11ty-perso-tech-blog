@@ -11,10 +11,10 @@
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/theme-red.css">
     </head>
-    <body class="min-h-screen flex flex-col justify-between p-2 md:p-8 theme-minimalist {% if page.url == "/" %} homepage {% endif %}">
+    <body class="min-h-screen flex flex-col justify-between items-center p-2 md:p-8 theme-minimalist {% if page.url == "/" %} homepage {% endif %}">
         {% include header %}
 
-        <main class="flex-1 py-10 px-2">{{ content }}</main>
+        <main class="flex-1 py-10 px-2 max-w-3xl">{{ content }}</main>
 
         {% include footer %}
     </body>

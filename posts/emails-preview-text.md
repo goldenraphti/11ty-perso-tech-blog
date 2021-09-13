@@ -15,9 +15,9 @@ Mailon iPhone:
 
 <!-- screenshots of Gmail + Outlook Desktop + Mail iPhone + Thunderbird -->
 
-The issue started because Outlook desktop was actually displaying as preview text the URL of the logo image :facepalm:
+The issue started because Outlook desktop was actually displaying as preview text the URL of the logo image 🤦
 
-Well, it's only happening in Outlook Desktop. But well, Outlook desktop is used by a really significant of users, no way to ignore them :sad:
+Well, it's only happening in Outlook Desktop. But well, Outlook desktop is used by a really significant of users, no way to ignore them 😔
 
 after many searches around, here's a way to get it working accross all email clients:
 
@@ -78,4 +78,4 @@ after many searches around, here's a way to get it working accross all email cli
 <!-- end preview text -->
 ```
 
-Yes ... it's **that** simple, and **that** verbose :monkeynoface:
+Yes ... it's **that** simple, and **that** verbose 🙈

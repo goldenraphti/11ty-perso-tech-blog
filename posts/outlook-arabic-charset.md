@@ -33,4 +33,4 @@ hence the small hack:
 <!-- END hack to force charset automatic picking from Outlook Desktop  -->
 ```
 
-it ain't pretty but it works. 1 Outlook problem solved at a time :wink:
+it ain't pretty but it works. 1 Outlook problem solved at a time 😉

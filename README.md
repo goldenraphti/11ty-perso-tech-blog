@@ -7,10 +7,10 @@ It's also a way to play around, experimenting with new cool stuff away from prod
 
 ## How to start 🔧
 
-* clone the repo
-* type "npm run start" to run it locally
-* check at [http://localhost/3000](http://localhost:3000/)
-* type "eleventy" to build the static site
+- clone the repo
+- type "npm run start" to run it locally
+- check at [http://localhost/3000](http://localhost:3000/)
+- type "eleventy" to build the static site
 
 ## How to contribute 💪
 
@@ -18,46 +18,46 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 
 ## Roadmap 🚀
 
-* [x] initiate 11ty blog with components
-* [x] enable Netlify deploy (package.json & ... )
-* [x] use CSS
-* [x] add Tailwind CSS
-* [x] add PostCSS
-* [x] rename Git "master" branch to "main"
-* [x] Deploy to netlify
-* [x] improve default style aesthetics (logo + colors)
-* [ ] add new design (fonts + colours + details gradients & animations)
-* [ ] add Lighthouse CI
-* [x] Purge CSS on build PROD (not dev)
-* [x] improve mobile view
-* [ ] fix issue reload on change
-* [ ] fix horizontal dividers on blog startpage (on hover still see the upper divider)
-* [x] improve logo (not transparent yet, will cause issue later e.g. in dark mode)
-* [ ] upgrade Tailwind to v2+ (and adapt PurgeCSS, since throws warn in build logging: "warn - The `conservative` purge mode will be removed in Tailwind 2.0."
-* [ ] customize CSS via PostCSS (e.g. nested-CSS)
-* [ ] track speed perf via [Speedlify](https://github.com/zachleat/speedlify/#deploy-to-netlify)
-* [ ] fix SEO & A11y issues
-* [ ] improve Lighthouse CI by using Lighthouse CLI commands (i.e. run mutiple runs & pick median, etc)
-* [ ] add CI check for A11y
-* [ ] style blog posts basic
-* [ ] edit nav
-* [ ] add RSS
-* [ ] edit footer
-* [ ] first blog posts
-* [ ] add Web Mentions ?
-* [ ] improve way to import svg (e.g. in footer GitHub link code icon)
-* [ ] improve way to use images (plugin to export static images on different dimensions + type (mobile dimensions, avif, ...) + use picture element)
-* [ ] add additional themes (dark, wordart-clipart, ...)
-* [ ] add sound on hover (like Josh W Comeau's blog)
+- [x] initiate 11ty blog with components
+- [x] enable Netlify deploy (package.json & ... )
+- [x] use CSS
+- [x] add Tailwind CSS
+- [x] add PostCSS
+- [x] rename Git "master" branch to "main"
+- [x] Deploy to netlify
+- [x] improve default style aesthetics (logo + colors)
+- [x] add new design (fonts + colours + details gradients & animations)
+- [ ] add Lighthouse CI
+- [x] Purge CSS on build PROD (not dev)
+- [x] improve mobile view
+- [ ] fix issue reload on change
+- [x] fix horizontal dividers on blog startpage (on hover still see the upper divider)
+- [x] improve logo (not transparent yet, will cause issue later e.g. in dark mode)
+- [ ] upgrade Tailwind to v2+ (and adapt PurgeCSS, since throws warn in build logging: "warn - The `conservative` purge mode will be removed in Tailwind 2.0."
+- [x] customize CSS via PostCSS (e.g. nested-CSS)
+- [ ] track speed perf via [Speedlify](https://github.com/zachleat/speedlify/#deploy-to-netlify)
+- [ ] fix SEO & A11y issues
+- [ ] improve Lighthouse CI by using Lighthouse CLI commands (i.e. run mutiple runs & pick median, etc)
+- [ ] add CI check for A11y
+- [ ] style blog posts basic
+- [ ] edit nav
+- [ ] add RSS
+- [ ] edit footer
+- [ ] first blog posts
+- [ ] add Web Mentions ?
+- [ ] improve way to import svg (e.g. in footer GitHub link code icon)
+- [ ] improve way to use images (plugin to export static images on different dimensions + type (mobile dimensions, avif, ...) + use picture element)
+- [ ] add additional themes (dark, wordart-clipart, ...)
+- [ ] add sound on hover (like Josh W Comeau's blog)
 
 ## Credits 😍
 
 Thank you to the creators and mainteners of those amazing tools:
 
-* [11ty](https://www.11ty.dev/)
-* mostly .md & .liquidJs
-* [tailwind-css](https://tailwindcss.com/)
-* [postcss](https://postcss.org/)
-* [purgecss](https://purgecss.com/)
-* [netlify](https://www.netlify.com/)
-* [lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci)
+- [11ty](https://www.11ty.dev/)
+- mostly .md & .liquidJs
+- [tailwind-css](https://tailwindcss.com/)
+- [postcss](https://postcss.org/)
+- [purgecss](https://purgecss.com/)
+- [netlify](https://www.netlify.com/)
+- [lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci)

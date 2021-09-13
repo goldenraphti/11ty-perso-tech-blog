@@ -1,4 +1,4 @@
-<header class="flex justify-between flex-wrap">
+<header class="flex justify-between flex-wrap w-full">
 
     {% if editorSettings.headerTitle.uppercaseGradient %}
     <div class="logo uppercase-gradient">
@@ -22,11 +22,11 @@
             {% if page.url == "/" %}
             <h1 class="text-2xl md:text-5xl title-text">Raphaël Ferrand</h1>
             {% else %}
-            <p class="text-2xl md:text-5xl  title-text">Raphaël Ferrand</p>
+            <p class="text-2xl md:text-5xl  title-text mb-0">Raphaël Ferrand</p>
             {% endif %}
         </a>
     </div>
     {% endif %}
-    
+
     {% include topnav %}
 </header>

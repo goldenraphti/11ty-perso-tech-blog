@@ -33,4 +33,4 @@ So, the solution at the moment was found in Tim Kamanin [blog post](https://timo
 >
 > 2. Run `npm install`
 
-That's it, problem solved :wink: (at least for now. You should probably think about upgrading your Gulp version by now).
+That's it, problem solved 😉 (at least for now. You should probably think about upgrading your Gulp version by now).
