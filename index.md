@@ -3,7 +3,7 @@ layout: layout.liquid
 title: Home
 ---
 
-<ul class="posts-list">
+<ul class="posts-list md:w-2/3">
 {%- for post in collections.post -%}
     <li>
         <div class="divider"></div>
