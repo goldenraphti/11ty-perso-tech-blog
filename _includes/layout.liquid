@@ -14,7 +14,7 @@
     <body class="min-h-screen flex flex-col justify-between items-center p-2 md:p-8 theme-minimalist {% if page.url == "/" %} homepage {% endif %}">
         {% include header %}
 
-        <main class="flex-1 py-10 px-2 max-w-3xl">{{ content }}</main>
+        <main class="flex-1 py-10 px-2 max-w-full md:max-w-3xl">{{ content }}</main>
 
         {% include footer %}
     </body>
