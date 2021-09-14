@@ -1,7 +1,7 @@
 ---
 layout: layout.liquid
-title: Outlook Desktop breaking unicode on its own
-tags: ['post', 'email dev', 'outlook', 'unicode']
+title: Outlook breaking charset and breaking styles
+tags: ['post', 'email dev', 'outlook', 'unicode', 'charset', 'utf8']
 ---
 
 # {{title}}
@@ -11,14 +11,23 @@ Outlook Desktop yet found a new way to trick me. And it did cost me several hour
 We build emails that get translated in different languages. But then I found out Outlook Desktop broke the email styling.
 After several hours of debugging, trying to identify where the issue was coming from, I found a new Oulook magic:
 
-It was creating some encoding issue.
-Even though I had already set the unicode in the `<head>` of my email:
+It was deleting the `charset` I had set up in the email's `<head>`
 
 ```html
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 ```
 
-but actually it was encoding it as arabic.
+was becoming
+
+```html
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+```
+
+Yes. Somewhere the charset I set get stripped off and replaced (here by arabic).
+It seems like I'm not the only one: [https://litmus.com/community/discussions/6375-meta-charset-utf-8-whatever-charset-i-use-in-my-emails-outlook-strips-them-out](https://litmus.com/community/discussions/6375-meta-charset-utf-8-whatever-charset-i-use-in-my-emails-outlook-strips-them-out)
+
+This error of encoding resulting in breaking the style of the email:
+
 Yet for some reason when writing the email in spanish it would respect the encoding.
 It seems like when Outlook detect some spanish characters such as `á` then it would not automatically set the encoding on arabic anymore.
 hence the small hack:
@@ -33,4 +42,4 @@ hence the small hack:
 <!-- END hack to force charset automatic picking from Outlook Desktop  -->
 ```
 
-it ain't pretty but it works. 1 Outlook problem solved at a time 😉
+it ain't pretty but it works. One Outlook problem solved at a time 😉
