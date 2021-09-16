@@ -215,8 +215,12 @@ pre code {
       }
 
       & ul li {
-        margin-left: 7px;
-        padding-left: 5px;
+        margin-left: 20px;
+      }
+
+      & .bulleted-list > ul > li {
+        margin-left: 0;
+        padding-left: 0;
       }
 
       & pre code {
