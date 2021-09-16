@@ -56,11 +56,29 @@ body {
     font-family: var(--primary-font-family);
   }
 
-  & main h1 {
-    font-weight: 600;
-    font-size: 1.8em;
-    line-height: 1.2;
-    padding-bottom: 20px;
+  & main {
+    & h1 {
+      font-weight: 600;
+      font-size: 1.8em;
+      line-height: 1.2;
+      padding-bottom: 20px;
+    }
+
+    & ul {
+      & li {
+        margin-left: 20px;
+        padding-left: 10px;
+
+        &::before {
+          content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: var(--secondary-color); /* Change the color */
+          font-weight: bold; /* If you want it to be bold */
+          display: inline-block; /* Needed to add space between the bullet and the text */
+          width: 1em; /* Also needed for space (tweak if needed) */
+          margin-left: -1em;
+        }
+      }
+    }
   }
 
   & .posts-list {
