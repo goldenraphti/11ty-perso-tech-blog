@@ -1,25 +1,25 @@
 ---
-title: how to style the preview text in emails
+title: How to style the preview text in emails
 tags: ['post', 'email dev', 'outlook', 'preview text']
 ---
 
 # {{title}}
 
-Days working on emails which must be supported by Outlook Desktop are always sources of both frustration and learning.
+Days working on emails are always sources of both frustration and learning (when you must ensure Outlook Desktop support)
 
 One of those days: trying to fix the preview text. you know, those 1-2-3 lines displayed before you actually open the email.
 
 Gmail in browser:
-Outlook Desktop:
-Mailon iPhone:
+![preview text in Gmail](/img/preview-text-email-gmail.png)
 
-<!-- screenshots of Gmail + Outlook Desktop + Mail iPhone + Thunderbird -->
+Outlook Desktop:
+![preview text in Outlook Desktop](/img/preview-text-outlook-desktop.png)
 
 The issue started because Outlook desktop was actually displaying as preview text the URL of the logo image 🤦
 
-Well, it's only happening in Outlook Desktop. But well, Outlook desktop is used by a really significant of users, no way to ignore them 😔
+And even though it's only happening in Outlook Desktop, Outlook desktop is used by a really significant of users, no way to ignore them 😔
 
-after many searches around, here's a way to get it working accross all email clients:
+After many tries and investigations, here's a way to get it working accross all email clients:
 
 ```html
 <!-- Preview Text -->

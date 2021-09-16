@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: Outlook breaking charset and breaking styles
+title: How to fix Outlook breaking the charset
 tags: ['post', 'email dev', 'outlook', 'unicode', 'charset', 'utf8']
 ---
 

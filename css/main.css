@@ -174,25 +174,33 @@ pre code {
 }
 
 @media screen and (min-width: 720px) {
-  body header .logo {
-    margin: 0 10px 0 0;
-    padding: 20px;
-    width: 90px;
-    height: 90px;
-
-    & .blob {
+  body {
+    & header .logo {
+      margin: 0 10px 0 0;
+      padding: 20px;
       width: 90px;
       height: 90px;
+
+      & .blob {
+        width: 90px;
+        height: 90px;
+      }
+
+      & svg {
+        width: 50px;
+        height: 50px;
+      }
     }
 
-    & svg {
-      width: 50px;
-      height: 50px;
-    }
-  }
+    & main {
+      & h1 {
+        padding-bottom: 40px;
+      }
 
-  pre code {
-    margin: 0 calc(var(--padding-code-block) * -1);
+      & pre code {
+        margin: 0 calc(var(--padding-code-block) * -1);
+      }
+    }
   }
 }
 
