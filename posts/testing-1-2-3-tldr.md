@@ -1,5 +1,5 @@
 ---
-title: Testing with Angie Jones - podcast TLDR
+title: Testing with Angie Jones - my notes
 tags: ['post', 'testing', 'podcast', 'angie jones']
 ---
 
@@ -26,7 +26,7 @@ Here are my notes:
     - historical context around it (spaghetti area or solid area where rarely any issue happens?)
     - is it covered by other things
   - to give you a list of what needs to be automated, and in which order to build those tests (what should be next)
-- free online [learning plateform](https://testautomationu.applitools.com/) she has built
+- free online learning platform [Test Automation University](https://testautomationu.applitools.com/) she has built
 - since new tools came in (Cypress, React Testing Library) FE testing has shifted, from units test to more intergation E2E tests
 - it gives confidence to have a test pass from red (fail) when first written to then green successfull. Else you're not really sure the test is actually working. Maybe that's an argument for TDD
 - unit testing

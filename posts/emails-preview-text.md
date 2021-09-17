@@ -13,7 +13,7 @@ Gmail in browser:
 ![preview text in Gmail](/img/preview-text-email-gmail.png)
 
 Outlook Desktop:
-![preview text in Outlook Desktop](/img/preview-text-outlook-desktop.png)
+![preview text in Outlook Desktop](/img/outlook-preview-text.webp)
 
 The issue started because Outlook desktop was actually displaying as preview text the URL of the logo image 🤦
 
