@@ -10,7 +10,9 @@
         <link rel="stylesheet" href="/css/index.css">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/theme-red.css">
-        <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+        <script src="/js/theme-switcher.js"></script>
+        <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" async>
+        <link href="https://unpkg.com/open-props/easings.min.css" rel="stylesheet" async>
     </head>
     <body class="min-h-screen flex flex-col justify-between items-center p-2 md:p-8 theme-minimalist {% if page.url == "/" %} homepage {% endif %}">
         {% include "header.liquid" %}

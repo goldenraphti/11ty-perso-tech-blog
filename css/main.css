@@ -1,12 +1,19 @@
 @import 'theme-minimalist.css';
 @import 'theme-red.css';
+@import 'sun-and-moon.css';
+
+@custom-media --motionOK (prefers-reduced-motion: no-preference);
 
 :root {
   --bg-color: #fff;
   --text-color: #000;
   --primary-color: green;
-  --primary-color-transparent-20: rgba(249, 129, 139, 80);
+  --primary-color-transparent-10: rgba(249, 129, 139, 10);
+  --primary-color-transparent-20: rgba(249, 129, 139, 20);
+  --primary-color-transparent-80: rgba(249, 129, 139, 80);
   --secondary-color: rgb(249, 129, 139);
+  --secondary-color-transparent-10: rgba(249, 129, 139, 10);
+  --secondary-color-transparent-20: rgba(249, 129, 139, 20);
   --secondary-color-alpha-ready: 249, 129, 139;
   --logo-bg-gradient-forefront: var(--text-color);
   --logo-bg-gradient: var(--text-color);
@@ -15,6 +22,19 @@
   --primary-font-family: 'sans-serif';
   --secondary-font-family: 'sans-serif';
   --padding-code-block: 1.3215rem;
+}
+
+html {
+  block-size: 100%;
+  color-scheme: light;
+
+  &[data-theme="dark"] {
+    color-scheme: dark;
+
+    @supports not (color-scheme: dark) {
+      background: #111;
+    }
+  }
 }
 
 .divider {
@@ -99,7 +119,7 @@ body {
 
     & li:hover {
       & a {
-        background-color: rgba(var(--secondary-color-alpha-ready), 0.1);
+        background-color: var(--secondary-color-transparent-10);
       }
 
       & .divider,

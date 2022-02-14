@@ -34,9 +34,13 @@ body.theme-minimalist {
   /* --bg-color: #f7f8f6; */
   --text-color: #1c1c1c;
   --primary-color: #14b1ab;
+  --primary-color-transparent-10: #14b1ab10;
   --primary-color-transparent-20: #14b1ab20;
   --primary-color-light-1: #57d2b5;
   --secondary-color: #f6416c;
+  --secondary-color-transparent-10: #f6416c10;
+  --secondary-color-transparent-20: #f6416c20;
+  --secondary-color-transparent-80: #f6416c80;
   --secondary-color-darker-1: #d23669;
   --logo-bg-gradient-forefront: rgb(228, 10, 10);
   --logo-bg-gradient: linear-gradient(
@@ -48,6 +52,27 @@ body.theme-minimalist {
     BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif,
     Apple Color Emoji, Segoe UI Emoji;
   --secondary-font-family: 'Recia-Variable';
+
+  @nest [data-theme="dark"] > & {
+    --bg-color: #1c1c1c;
+    --text-color: #f7f8f6;
+    --primary-color: #f6416c;
+    --primary-color-transparent-10: #f6416c10;
+    --primary-color-transparent-20: #f6416c20;
+    --primary-color-light-1: #d23669;
+    --secondary-color: #14b1ab;
+    --secondary-color-transparent-10: #14b1ab10;
+    --secondary-color-transparent-20: #14b1ab20;
+    --secondary-color-transparent-30: #14b1ab30;
+    --secondary-color-transparent-80: #14b1ab80;
+    --secondary-color-darker-1: #57d2b5;
+    --logo-bg-gradient-forefront: rgb(228, 10, 10);
+    --logo-bg-gradient: linear-gradient(
+      160deg,
+      var(--primary-color) 0%,
+      rgba(255, 213, 0, 1) 100%
+    );
+  }
 
   border: 8px solid var(--primary-color-light-1);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
@@ -67,6 +92,24 @@ body.theme-minimalist {
 
     @media screen and (min-width: 768px) {
       font-size: 72px;
+    }
+  }
+
+  @nest [data-theme= "dark"] > & {
+    border-color: var(--secondary-color);
+
+    & .logo .blob {
+      background: var(--text-color);
+      opacity: 0.85;
+    }
+
+    & header .title-text,
+    & header a {
+      color: var(--secondary-color);
+    }
+
+    & .posts-list li:hover a {
+      background-color: var(--secondary-color-transparent-20);
     }
   }
 }

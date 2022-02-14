@@ -7,6 +7,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   // Copy `icons/` to `_site/icons`
   eleventyConfig.addPassthroughCopy("icons");
+  // Copy '/js' to '_site/js'
+  eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPlugin(syntaxHighlight);
   return {
