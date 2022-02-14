@@ -1,3 +1,5 @@
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
 module.exports = function (eleventyConfig) {
   // Copy '/css' to '_site/css'
   eleventyConfig.addPassthroughCopy("css");
@@ -6,6 +8,7 @@ module.exports = function (eleventyConfig) {
   // Copy `icons/` to `_site/icons`
   eleventyConfig.addPassthroughCopy("icons");
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPlugin(syntaxHighlight);
   return {
     passthroughFileCopy: true,
   };

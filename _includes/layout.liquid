@@ -6,10 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Raphaël Ferrand</title>
         <!-- Allows control over where resources are loaded from. Place as early in the document as possible, only applies to content below this tag. -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://unpkg.com/;">
         <link rel="stylesheet" href="/css/index.css">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/theme-red.css">
+        <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     </head>
     <body class="min-h-screen flex flex-col justify-between items-center p-2 md:p-8 theme-minimalist {% if page.url == "/" %} homepage {% endif %}">
         {% include header %}

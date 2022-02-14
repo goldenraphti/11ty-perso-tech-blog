@@ -24,7 +24,7 @@ There was no real example for Preact. And since this was the actual very first t
 1- preact.config.js
 - If you don't have it yet, create a "preact.config.js" file at the root of your project.
 - paste this in it:
-```
+```js
 module.exports = function(config) {
   if (config.devServer) {
     config.devServer.proxy = [
@@ -64,7 +64,7 @@ module.exports = function(config) {
 2- the fetch
 
 You will need to adapt your fetch function so it uses the Proxy you've just enabled in your preact config file, by fetching it through the `/api/` route:
-```
+```js
 const getBooking = (urlToFetch) => {
   fetch(`/api/${urlToFetch}`).then(response => response.json())
     .then(data => console.log('🎁',data))
@@ -75,7 +75,7 @@ const getBooking = (urlToFetch) => {
 3- avoid the build error
 
 You might have found somewhere an example looking like that:
-```
+```js
 config.devServer.proxy = [
     {
       // proxy requests matching a pattern:
@@ -83,7 +83,7 @@ config.devServer.proxy = [
 ```
 Well, this will cause you an error thrown at build time for prod since in prod environment config.devServer is `undefined`.
 That's why it's important to add a condition before such as:
-```
+```js
 if (config.devServer) {
   config.devServer.proxy = [
     {

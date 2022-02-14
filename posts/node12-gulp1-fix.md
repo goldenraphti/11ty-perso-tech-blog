@@ -21,7 +21,7 @@ So, the solution at the moment was found in Tim Kamanin [blog post](https://timo
 
 > 1. In the same directory where you have package.json create an npm-shrinkwrap.json file with the following contents:
 >
-> ```
+> ``` js
 > {
 >  "dependencies": {
 >    "graceful-fs": {
