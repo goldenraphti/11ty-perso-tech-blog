@@ -13,10 +13,10 @@
         <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     </head>
     <body class="min-h-screen flex flex-col justify-between items-center p-2 md:p-8 theme-minimalist {% if page.url == "/" %} homepage {% endif %}">
-        {% include header %}
+        {% include "header.liquid" %}
 
         <main class="flex-1 py-10 md:py-20 px-2 max-w-full md:max-w-3xl">{{ content }}</main>
 
-        {% include footer %}
+        {% include "footer.liquid" %}
     </body>
 </html>
