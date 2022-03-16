@@ -1,0 +1,21 @@
+{
+  "title": "Raphael Ferrand",
+  "url": "https://raphaelferrand.com/",
+  "language": "en",
+  "description": "Raphael Ferrand technical blog, postsing about web development and programming. Learning along the way. And side-projects too 🚀",
+  "feed": {
+    "subtitle": "Raphael Ferrand technical blog, postsing about web development and programming. Learning along the way. And side-projects too 🚀",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://raphaelferrand.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://raphaelferrand.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Raphaël Ferrand",
+    "email": "goldenraphti@gmail.com",
+    "url": "https://raphaelferrand.com/"
+  }
+}
