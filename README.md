@@ -39,6 +39,8 @@ We'll see later, what if I open this theme as 11ty starter ... ?
 - [ ] think eventual change of stack (Astro?) to ake it easier, or use template perf-google
 - [ ] upgrade Tailwind to v2+ (and adapt PurgeCSS, since throws warn in build logging: "warn - The `conservative` purge mode will be removed in Tailwind 2.0."
 - [x] customize CSS via PostCSS (e.g. nested-CSS)
+- [ ] add purgeCSS
+- [ ] fix the (postcss-clean?) issue removing the so-it-say "not supported" `cx` from css sun-and-moon.css file
 - [ ] track speed perf via [Speedlify](https://github.com/zachleat/speedlify/#deploy-to-netlify)
 - [ ] fix SEO & A11y issues
 - [ ] improve Lighthouse CI by using Lighthouse CLI commands (i.e. run mutiple runs & pick median, etc)

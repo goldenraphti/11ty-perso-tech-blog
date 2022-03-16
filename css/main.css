@@ -282,10 +282,6 @@ footer svg:hover {
   animation-iteration-count: infinite;
   animation-timing-function: ease;
   animation-direction: alternate;
-
-  @nest html[data-test="visual-comparison"] & {
-    animation-play-state: paused;
-  }
 }
 
 @keyframes blobby {
