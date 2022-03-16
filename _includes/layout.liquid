@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         {% include "metadataHeadLayout.liquid" %}
+        <title>{% if seo.title %}{{seo.title}}{% elsif title %}{{title}}{% else %}{{ metadata.title }}{% endif %}</title>
         <link rel="stylesheet" href="/css/index.css">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/theme-red.css">
