@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge; chrome=1"> <!-- Render Chrome if available or using latest version of Internet Explorer (Recommended). -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:site_name" content="{{ metadata.title }}" />
+<meta
+    property="og:title"
+    content="
+        {% if seo.title %}
+            {{seo.title}}
+        {% else %}
+            {{title}}
+        {% endif %} | {{ metadata.title }}"
+/>
+<meta
+    property="og:description"
+    content="
+        {% if seo.description %}
+            {{seo.description}}
+        {% else %}
+            {{metadata.description}}
+        {% endif %}"
+/>
+<!-- Allows control over where resources are loaded from. Place as early in the document as possible, only applies to content below this tag. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://unpkg.com/;">
