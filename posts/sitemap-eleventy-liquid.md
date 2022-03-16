@@ -90,3 +90,31 @@ module.exports = function (eleventyConfig) {
 ### package.json
 
 install [luxon package](https://www.npmjs.com/package/luxon) so you'll be able to use "DateTime".
+
+## Metadata
+
+Make sure you have a file called "metadata.json" for example in our case, inside "\_data/" folder, in which you specify the URL of the website
+
+```json
+{
+  // "title": "Your Blog Name",
+  "url": "https://example.com/"
+  // "language": "en",
+  // "description": "I am writing about my experiences as a naval navel-gazer.",
+  // "feed": {
+  //   "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+  //   "filename": "feed.xml",
+  //   "path": "/feed/feed.xml",
+  //   "id": "https://example.com/"
+  // },
+  // "jsonfeed": {
+  //   "path": "/feed/feed.json",
+  //   "url": "https://example.com/feed/feed.json"
+  // },
+  // "author": {
+  //   "name": "Your Name Here",
+  //   "email": "youremailaddress@example.com",
+  //   "url": "https://example.com/about-me/"
+  // }
+}
+```
