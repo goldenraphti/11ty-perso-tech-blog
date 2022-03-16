@@ -2,6 +2,10 @@
 title: How to style the preview text in emails
 tags: ["post", "email dev", "outlook", "preview text"]
 date: 2021-09-17
+seo:
+  title:
+  description: How to add a preview text for emails working across email clients
+  image:
 ---
 
 # {{title}}

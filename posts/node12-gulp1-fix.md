@@ -2,6 +2,10 @@
 title: Fix gulp 3 & node 12 compatibility issues
 tags: ["post", "gulp", "node", "tip", "fix"]
 date: 2021-09-13
+seo:
+  title:
+  description: How to fix the issue in Gulp3 & Node 12 "primordials is not defined"
+  image:
 ---
 
 # {{title}}

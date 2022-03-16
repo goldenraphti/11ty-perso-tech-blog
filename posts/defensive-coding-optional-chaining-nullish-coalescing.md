@@ -14,6 +14,10 @@ tags:
     "default value",
   ]
 date: 2021-12-01
+seo:
+  title:
+  description: Defensive coding in javascript, learn to use optional chaining and nullish coalescing operator
+  image:
 ---
 
 # {{title}}

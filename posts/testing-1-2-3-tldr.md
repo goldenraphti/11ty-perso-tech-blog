@@ -2,6 +2,10 @@
 title: Testing with Angie Jones - my notes
 tags: ["post", "testing", "podcast", "angie jones"]
 date: 2021-09-17
+seo:
+  title:
+  description: Some notes about the interesting podcast episode from Angie Jones interview about testing in web development
+  image:
 ---
 
 # {{title}}

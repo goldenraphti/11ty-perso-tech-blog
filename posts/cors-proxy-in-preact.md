@@ -18,6 +18,10 @@ tags:
     "corsanywhere",
   ]
 date: 2022-02-14
+seo:
+  title:
+  description: How to add a local proxy in Preact in order to avoid CORS issues when fetching an third-party API
+  image:
 ---
 
 # {{title}}

@@ -3,6 +3,10 @@ layout: layout.liquid
 title: How to fix Outlook breaking the charset
 tags: ["post", "email dev", "outlook", "unicode", "charset", "utf8"]
 date: 2021-09-16
+seo:
+  title:
+  description: Hot to fix Outlook bug breaking the charset setting it automatically to arabic charset
+  image:
 ---
 
 # {{title}}

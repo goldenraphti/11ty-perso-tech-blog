@@ -2,6 +2,10 @@
 title: Adding a sitemap in Eleventy using .liquid format
 tags: ["post", "liquid", "eleventy", "11ty", "sitemap"]
 date: 2022-03-16
+seo:
+  title:
+  description: How to add a sitemap in .liquid in an eleventy website
+  image:
 ---
 
 # {{title}}
