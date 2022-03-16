@@ -1,6 +1,7 @@
 ---
 title: Testing with Angie Jones - my notes
-tags: ['post', 'testing', 'podcast', 'angie jones']
+tags: ["post", "testing", "podcast", "angie jones"]
+date: 2021-09-17
 ---
 
 # {{title}}
