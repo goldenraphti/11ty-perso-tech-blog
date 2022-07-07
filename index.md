@@ -4,7 +4,7 @@ title: Home
 ---
 
 <ul class="posts-list">
-{%- for post in collections.post -%}
+{%- for post in collections.post reversed-%}
     <li>
         <div class="divider"></div>
         <a href="{{ post.url }}">
